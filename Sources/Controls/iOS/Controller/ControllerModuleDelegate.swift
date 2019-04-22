@@ -46,7 +46,7 @@ import UIKit
 open class ControllerModuleDelegate: UIViewController {
     
     /// Lazy implementation of controller services list
-    private lazy var lazyModules: [ControllerModule] = modules()
+    lazy var lazyModules: [ControllerModule] = modules()
     
     /// List of controller services for binding to `UIViewController` events
     open func modules() -> [ControllerModule] {

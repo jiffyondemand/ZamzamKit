@@ -14,6 +14,13 @@
 		1BC493DE226E411800847E4A /* ApplicationServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC493D9226E411800847E4A /* ApplicationServicesManager.swift */; };
 		1BC493DF226E411800847E4A /* ApplicationServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC493D9226E411800847E4A /* ApplicationServicesManager.swift */; };
 		1BC493E0226E411800847E4A /* ApplicationServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC493D9226E411800847E4A /* ApplicationServicesManager.swift */; };
+		1BC493E2226E456700847E4A /* PluggableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC493E1226E456700847E4A /* PluggableController.swift */; };
+		1BC493E3226E456700847E4A /* PluggableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC493E1226E456700847E4A /* PluggableController.swift */; };
+		1BC493E4226E456700847E4A /* PluggableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC493E1226E456700847E4A /* PluggableController.swift */; };
+		1BC493E5226E456700847E4A /* PluggableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC493E1226E456700847E4A /* PluggableController.swift */; };
+		1BC493E6226E456700847E4A /* PluggableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC493E1226E456700847E4A /* PluggableController.swift */; };
+		1BC493E7226E456700847E4A /* PluggableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC493E1226E456700847E4A /* PluggableController.swift */; };
+		1BC493E8226E456700847E4A /* PluggableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC493E1226E456700847E4A /* PluggableController.swift */; };
 		8B021E40203CA72E00A0386F /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B021E3F203CA72E00A0386F /* UIScrollView.swift */; };
 		8B07420B20DFBD2300204C2F /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B07420A20DFBD2300204C2F /* RoundedViews.swift */; };
 		8B0BA2241FAA6DFC0042BFF0 /* NextResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BA2231FAA6DFC0042BFF0 /* NextResponderTextField.swift */; };
@@ -390,6 +397,7 @@
 
 /* Begin PBXFileReference section */
 		1BC493D9226E411800847E4A /* ApplicationServicesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationServicesManager.swift; sourceTree = "<group>"; };
+		1BC493E1226E456700847E4A /* PluggableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluggableController.swift; sourceTree = "<group>"; };
 		8B021E3F203CA72E00A0386F /* UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
 		8B07420A20DFBD2300204C2F /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
 		8B0BA2231FAA6DFC0042BFF0 /* NextResponderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextResponderTextField.swift; sourceTree = "<group>"; };
@@ -700,6 +708,7 @@
 			children = (
 				8B1CC4F6217AE91100F00A70 /* ControllerModuleDelegate.swift */,
 				8B6FB9BD2027CF9900FE7BEB /* ControllerModule.swift */,
+				1BC493E1226E456700847E4A /* PluggableController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1449,6 +1458,7 @@
 				8BF0CD112143243500DF6DAF /* LocationsWorkerType.swift in Sources */,
 				8B379A0820F65F46002144F7 /* PlaceholderTextView.swift in Sources */,
 				8B5250E020CFDED700E77F70 /* Decodable.swift in Sources */,
+				1BC493E2226E456700847E4A /* PluggableController.swift in Sources */,
 				8B1CC4F4217AE56D00F00A70 /* ApplicationModuleDelegate.swift in Sources */,
 				8B2D90EB1EE47ED80019F063 /* UNNotificationTriggerDateType.swift in Sources */,
 				8B63E4271CDB8DB00053C060 /* UIImage.swift in Sources */,
@@ -1551,6 +1561,7 @@
 				8BB45FB61C9BDD180070CE07 /* UserDefaults.swift in Sources */,
 				8B9E98701EB500790067ACB7 /* With.swift in Sources */,
 				8BFDB6A11C75B4A600C94996 /* LocationMeta.swift in Sources */,
+				1BC493E3226E456700847E4A /* PluggableController.swift in Sources */,
 				8BBB66E21E9C000900AB1973 /* UNUserNotificationCenter.swift in Sources */,
 				8BF210931E4A22460026B802 /* UNNotificationAttachment.swift in Sources */,
 				8BD508771C99E18500AE205E /* Collection.swift in Sources */,
@@ -1613,6 +1624,7 @@
 				8BD98D671FC33B4600E74A8C /* Font.swift in Sources */,
 				8BE2BB421F03259C00877447 /* Localizable.swift in Sources */,
 				8B729C771EAB9D56004A6BF1 /* ConditionalAssignment.swift in Sources */,
+				1BC493E4226E456700847E4A /* PluggableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1627,6 +1639,7 @@
 				8B58856721B90A7A00B0D0CD /* ModalView.swift in Sources */,
 				8BB120C42178B54800B72ECF /* PresentableView.swift in Sources */,
 				8BB3432E2141D557000F0CEF /* Localizable.swift in Sources */,
+				1BC493E7226E456700847E4A /* PluggableController.swift in Sources */,
 				8B58855D21B8F4DE00B0D0CD /* CollectionViewController.swift in Sources */,
 				8BB3431E2140E842000F0CEF /* NotificationsViewController.swift in Sources */,
 				8BB3431B2140E842000F0CEF /* WatchViewController.swift in Sources */,
@@ -1647,6 +1660,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5316331C9B23140094A6C4 /* NotificationController.swift in Sources */,
+				1BC493E8226E456700847E4A /* PluggableController.swift in Sources */,
 				8B5316311C9B23140094A6C4 /* ExtensionDelegate.swift in Sources */,
 				8B5316371C9B23140094A6C4 /* ComplicationController.swift in Sources */,
 				8B53162F1C9B23140094A6C4 /* InterfaceController.swift in Sources */,
@@ -1665,6 +1679,7 @@
 				8B48E6231DAFFD8900087328 /* CollectionTests.swift in Sources */,
 				8B54B9DB1FCC6B8F00ED571F /* UserDefaultsTests.swift in Sources */,
 				8B729C7C1EAB9E42004A6BF1 /* InfixTests.swift in Sources */,
+				1BC493E5226E456700847E4A /* PluggableController.swift in Sources */,
 				8B2DE3EC1C8A8F79008F1569 /* BundleTests.swift in Sources */,
 				8BCB73D71CAD666900E20096 /* ExtensionsTest.swift in Sources */,
 				8BE19B2D1C72D71F00D4D437 /* DateTimeTests.swift in Sources */,
@@ -1699,6 +1714,7 @@
 				8B4967BB1EA8018A00091A7D /* DictionaryTests.swift in Sources */,
 				8B4967C11EA8019500091A7D /* StringTests.swift in Sources */,
 				8B54B9DC1FCC6B9000ED571F /* UserDefaultsTests.swift in Sources */,
+				1BC493E6226E456700847E4A /* PluggableController.swift in Sources */,
 				8B4967BE1EA8018F00091A7D /* LocaleTests.swift in Sources */,
 				8B89746F1EDE17AC004FA853 /* MigrationTests.swift in Sources */,
 				8B729C7D1EAB9E43004A6BF1 /* InfixTests.swift in Sources */,
