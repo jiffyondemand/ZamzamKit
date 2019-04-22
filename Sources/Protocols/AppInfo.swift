@@ -13,11 +13,11 @@ import WatchKit
 #endif
 
 /// Provides details of the current app.
-public protocol AppInfo {
+public protocol ZamzamKitable {
 
 }
 
-public extension AppInfo {
+public extension ZamzamKitable {
 
 	/// App's name.
 	var appDisplayName: String? {
@@ -44,7 +44,7 @@ public extension AppInfo {
 
 // MARK: - Environment
 
-public extension AppInfo {
+public extension ZamzamKitable {
 	
 	/// Check if app is running in TestFlight mode.
 	var isInTestFlight: Bool {
