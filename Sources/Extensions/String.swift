@@ -17,7 +17,7 @@ public extension String {
 	///
 	/// - Parameter random: Number of characters in string.
 	/// - Parameter prefix: Prepend to string.
-	public init(random: Int, prefix: String = "") {
+    init(random: Int, prefix: String = "") {
         // https://github.com/SwifterSwift/SwifterSwift
 		let base = Array("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
         
